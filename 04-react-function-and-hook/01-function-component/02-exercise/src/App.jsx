@@ -28,6 +28,7 @@ function Content() {
 }
 
 function Temperature() {
+  const temperature = 43;
   return (
     <div id="temperature">
       <span>{temperature} Oc</span>
