@@ -31,7 +31,7 @@ const Login = () => {
           onChange={(event) => setUserName(event.target.value)}
           type="Text"
           placeholder="Username"
-          style={{ margin: "5px" }}
+          style={{ margin: "0px" }}
         ></input>
         <br />
         <br />
@@ -41,7 +41,7 @@ const Login = () => {
           onChange={(event) => setUserPassword(event.target.value)}
           type="password"
           placeholder="Password"
-          style={{ margin: "5px" }}
+          style={{ margin: "0px" }}
         ></input>
         <br />
         <br />
